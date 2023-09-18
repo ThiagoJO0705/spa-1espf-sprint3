@@ -232,3 +232,120 @@ main {
         }
     }
 }
+
+.problema {
+    margin: 7rem 0 0 2rem;
+    grid-column: 1/13;
+    gap: 10rem;
+    display: flex;
+}
+.fundo-problema {
+    background-color: $bg-color_7;
+    border-top-left-radius: 15rem;
+    border-bottom-left-radius: 15rem;
+    display: flex;
+    color: $text-color_2;
+    align-items: center;
+    justify-content: center;
+    text-align: justify;
+    height: 25rem;
+    width: 110rem;
+    ul {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 2rem;
+        li {
+            font-size: 2rem;
+            padding-right: 2rem;
+            text-align: justify;
+            margin-left: 6rem;
+        }
+    }
+}
+#titulo-problema {
+    font-size: 4rem;
+    font-weight: bold;
+}
+#sub-problema {
+    font-size: 2rem;
+    width: 60rem;
+    text-align: justify;
+}
+
+.solucao {
+    display: flex;
+    margin: 7rem 0 0 2rem;
+    grid-column: 1/13;
+    grid-row: 9/15;
+    gap: 10rem;
+    display: flex;
+}
+.container-solucao {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+#titulo-solucao {
+    font-size: 5rem;
+    font-weight: bold;
+}
+#sub-solucao {
+    margin-top: -18rem;
+    font-size: 2.5rem;
+    text-align: center;
+    max-width: 170rem;
+}
+.containeir-como-funciona-solucao {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-top: -20rem;
+}
+.quadrado {
+    max-width: 55rem;
+    width: 100%;
+    max-height: 30rem;
+    height: 100%;
+    margin-top: 5rem;
+    border: 2px solid $bg-color_12;
+    border-radius: 2rem;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 5rem;
+    h2 {
+        padding: 0 2rem 0 2rem;
+        margin-top: -3rem;
+        font-size: 2.5rem;
+        font-weight: lighter;
+    }
+}
+.box-numero {
+    width: 5rem;
+    height: 5rem;
+    border-radius: 50%;
+    border: 2px solid $bg-color_12;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    top: -3.3rem;
+    left: -23rem;
+}
+#numero1 {
+    top: -6.9rem;
+}
+#box-numero4 {
+    top: -5rem;
+}
+.numero {
+    font-size: 3rem;
+    color: $text-color_4;
+}
+.titulo-quadrado {
+    font-size: 2.5rem;
+    margin-top: -10rem;
+}
