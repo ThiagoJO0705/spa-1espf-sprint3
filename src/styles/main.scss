@@ -428,3 +428,80 @@ main {
         margin-top: 2rem;
     }
 }
+footer {
+    grid-column: 1 / 13;
+    grid-row: 28;
+    background-color: $bg-color_3;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: $text-color_2;
+    img {
+        max-width: 100%;
+        max-height: 12rem;
+    }
+}
+.textos-rodape {
+    display: flex;
+    justify-content: space-between;
+    font-size: 1rem;
+    div {
+        margin: 0 2rem;
+    }
+}
+.titulos-rodape {
+    margin: 1rem 0;
+    font-size: 1.5rem;
+}
+.contatos {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    flex-direction: column;
+    div {
+        margin: 1rem 0;
+    }
+}
+.icons-rodape {
+    font-size: 3rem;
+    display: flex;
+    a {
+        i {
+            color: $text-color_2;
+        }
+    }
+    >a {
+        margin: 0 1rem;
+    }
+}
+.botao-contato {
+    button {
+        width: 100%;
+        height: 3.5rem;
+        border-radius: 2rem 2rem;
+        background-color: $bg-color_7;
+        color: $text-color_2;
+        cursor: pointer;
+    }
+}
+.inicio {
+    display: flex;
+    flex-direction: column;
+    a {
+        color: $text-color_2;
+    }
+}
+.sobre-nos {
+    display: flex;
+    flex-direction: column;
+    a {
+        color: $text-color_2;
+    }
+}
+.suporte {
+    display: flex;
+    flex-direction: column;
+    a {
+        color: $text-color_2;
+    }
+}
