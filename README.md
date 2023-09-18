@@ -1,5 +1,5 @@
-# sprint3-front-web-react
-sprint3-fron-web-react Repositório para versionamento da Sprint 3 das matérias Front-end Design e Web Development with JavaScript. 
+# spa-1espf-sprint3
+Repositório para versionamento da Sprint 3 das matérias Front-end Design e Web Development with JavaScript. 
 
 
 Nenhum participante do grupo é de outra turma.
