@@ -87,3 +87,103 @@ header {
 	background-color: $bg-color_1;
 	transition: 0.5s;
 }
+
+.section-form {
+    display: flex; 
+    align-items: center;
+    justify-content: center;
+    min-height: 97rem;
+    width: 100%;
+    grid-column: 1/13;
+    grid-row: 23
+}
+
+.form-box{
+    width: 500px;
+    height: 650px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    background-color: $bg-color_4;
+    color: white;
+    border-radius: 2rem;
+    box-shadow: $bg-color_9 1rem 1rem;
+    position: relative;
+    top: -10rem;
+}
+.form {
+    h2 {
+        font-size: 4rem;
+        position: relative;
+        top: 0rem;
+        left: 16rem;
+        text-shadow: $bg-color_8 0px 10px;
+    }
+}
+
+.inputs{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
+    input {
+        background-color: transparent;
+        outline: none;
+        width: 40rem;
+        margin-top: 6rem;
+        height: 5rem;
+        color: $text-color_2;
+        visibility: visible;
+        text-align: left;
+        vertical-align: top;
+        border-radius: 1rem;
+    }
+
+    label {
+        font-size: 2rem;
+        position: absolute;
+        margin-top: 3.6rem;
+        left: 5rem;
+    }
+
+    button {
+        width: 400px;
+        height: 40px;
+        border-radius: 30px;
+        background-color: $bg-color_13;
+        color: $text-color_2;
+        border: none;
+        outline: none;
+        position: relative;
+        top: 0rem;
+        cursor: pointer;
+        font-size: 2rem;
+    }
+}
+
+.span-form{
+    font-size: 1.5rem;
+    position: relative;
+    left: -6rem;
+    color: $text-color_3;
+    top: 0.5rem;
+    visibility: hidden;
+}
+
+#span-nome{
+    left: -3rem;
+}
+
+#span-tel{
+    left: -8rem;
+}
+
+#span-email {
+    left: -12.5rem;
+}
+
+#span-msg {
+    left: -5rem;
+    top: 0;
+}
