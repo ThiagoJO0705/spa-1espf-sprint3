@@ -187,3 +187,48 @@ header {
     left: -5rem;
     top: 0;
 }
+
+.containeir-home {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: $text-color_2;
+}
+main {
+    grid-column: 1/13;
+    grid-row: 2/7;
+    background-image: url(../assets/smart-cities.jpg);
+    background-size: 100%;
+    height: 1000px;
+    color: $text-color_2;
+    background-repeat: no-repeat;
+    max-width: 100%;
+}
+#titulo-home {
+    font-size: 7rem;
+    margin-top: 15rem;
+}
+#sub-home {
+    font-size: 4rem;
+    width: 120rem;
+    text-align: center;
+    margin-top: 2rem;
+}
+.btn-projeto {
+    margin-top: 10rem;
+    button {
+        font-size: 2rem;
+        color: $text-color_2;
+        text-decoration: none;
+        padding: 1.5rem;
+        background-color: $bg-color_9;
+        border-radius: 3rem;
+        border: 0;
+        cursor: pointer;
+        &:hover {
+            background-color: $bg-color_8;
+            font-size: 2.2rem;
+            transition: 0.2s;
+        }
+    }
+}
