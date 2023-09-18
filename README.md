@@ -1,8 +1,16 @@
-# React + Vite
+# sprint3-front-web-react
+sprint3-fron-web-react Repositório para versionamento da Sprint 3 das matérias Front-end Design e Web Development with JavaScript. 
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
-Currently, two official plugins are available:
+Nenhum participante do grupo é de outra turma.
+<ul>
+  <li>GUILHERME ROCHA BIANCHINI - RM97974 - 1ESPF</li>
+  <li>NIKOLAS RODRIGUES MOURA DOS SANTOS - RM551566 - 1ESPF</li>
+  <li>PEDRO HENRIQUE PEDROSA TAVARES - RM97877 - 1ESPF</li>
+  <li>THIAGO JARDIM DE OLIVEIRA - RM551624 - 1ESPF</li>
+  <li>RODRIGO BRASILEIRO – RM98952 - 1ESPF</li>
+</ul>
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+<h1>Requerimentos:</h1>
+<h2>Instalação do SASS</h2>
+<p>npm install -g sass</p>
