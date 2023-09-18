@@ -349,3 +349,29 @@ main {
     font-size: 2.5rem;
     margin-top: -10rem;
 }
+
+.demonstracao {
+    grid-column: 1/13;
+    grid-row: 16/20;
+    display: flex;
+    justify-content: center;
+}
+.container-demonstracao {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 2rem;
+    h1 {
+        font-size: 5rem;
+    }
+    h2 {
+        font-size: 2.5rem;
+        text-align: center;
+        width: 150rem;
+    }
+}
+.video-yt {
+    width: 110rem;
+    height: 60rem;
+}
