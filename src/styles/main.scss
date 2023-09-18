@@ -10,3 +10,80 @@
 html {
 	font-size: 62.5%;
 }
+
+.container-grid {
+	display: grid;
+	grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+	grid-template-rows: repeat(28, 170px);
+	color: $text-color_1;
+	background-color: $bg-color_1;
+}
+
+header {
+	grid-column: 1/13;
+	background-color: $bg-color_3;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	color: $text-color_2;
+}
+#menu-desktop {
+	display: flex;
+	justify-content: right;
+	margin-top: 9rem;
+	ul {
+		display: flex;
+		list-style: none;
+		li {
+			display: flex;
+			align-items: center;
+			justify-content: center;
+			a {
+				padding: 2.5rem;
+				list-style: none;
+				font-size: 2rem;
+				text-decoration: none;
+				color: $text-color_2;
+				&:hover {
+					background-color: $bg-color_4;
+				}
+			}
+		}
+	}
+}
+.menu-mobile {
+	display: none;
+}
+#titulo-cabecalho {
+	color: $text-color_2;
+	font-size: 4.5rem;
+}
+#titulo-cabecalho-mobile {
+	display: none;
+}
+#logo-cabecalho {
+	max-width: 15rem;
+	border-radius: 50%;
+	margin: 1rem 0 1rem 2rem;
+}
+.box-menu-mobile {
+	display: none;
+}
+.linha1-menu {
+	width: 5.5rem;
+	height: 0.5rem;
+	background-color: $bg-color_1;
+	transition: 0.5s;
+}
+.linha2-menu {
+	width: 5.5rem;
+	height: 0.5rem;
+	background-color: $bg-color_1;
+	transition: 0.5s;
+}
+.linha3-menu {
+	width: 5.5rem;
+	height: 0.5rem;
+	background-color: $bg-color_1;
+	transition: 0.5s;
+}
