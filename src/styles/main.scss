@@ -1,0 +1,12 @@
+@import "./variaveis";
+@import "https://fonts.googleapis.com/css2?family=Noto+Sans:wght@300&display=swap";
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: $font-family_1;
+}
+html {
+	font-size: 62.5%;
+}
