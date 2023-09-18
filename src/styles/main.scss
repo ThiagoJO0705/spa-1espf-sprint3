@@ -349,3 +349,82 @@ main {
     font-size: 2.5rem;
     margin-top: -10rem;
 }
+
+.demonstracao {
+    grid-column: 1/13;
+    grid-row: 16/20;
+    display: flex;
+    justify-content: center;
+}
+.container-demonstracao {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 2rem;
+    h1 {
+        font-size: 5rem;
+    }
+    h2 {
+        font-size: 2.5rem;
+        text-align: center;
+        width: 150rem;
+    }
+}
+.video-yt {
+    width: 110rem;
+    height: 60rem;
+}
+
+.vantagens {
+    grid-column: 1/13;
+    grid-row: 21;
+}
+.container-vantagens {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+}
+#titulo-vantagens {
+    font-size: 4rem;
+}
+.container-icons {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 1rem;
+    img {
+        width: $width-icon-desktop;
+    }
+    p {
+        font-size: 1.8rem;
+        text-align: center;
+    }
+}
+.icons {
+    border: 1px solid $bg-color_13;
+    border-radius: 2rem;
+    height: 30rem;
+    width: 30rem;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    h1 {
+        font-size: 4rem;
+    }
+}
+#icon-precisao {
+    img {
+        margin-top: 2rem;
+    }
+}
+#icon-simplicidade {
+    img {
+        margin-top: 2rem;
+    }
+}
