@@ -232,3 +232,42 @@ main {
         }
     }
 }
+
+.problema {
+    margin: 7rem 0 0 2rem;
+    grid-column: 1/13;
+    gap: 10rem;
+    display: flex;
+}
+.fundo-problema {
+    background-color: $bg-color_7;
+    border-top-left-radius: 15rem;
+    border-bottom-left-radius: 15rem;
+    display: flex;
+    color: $text-color_2;
+    align-items: center;
+    justify-content: center;
+    text-align: justify;
+    height: 25rem;
+    width: 110rem;
+    ul {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 2rem;
+        li {
+            font-size: 2rem;
+            padding-right: 2rem;
+            text-align: justify;
+            margin-left: 6rem;
+        }
+    }
+}
+#titulo-problema {
+    font-size: 4rem;
+    font-weight: bold;
+}
+#sub-problema {
+    font-size: 2rem;
+    width: 60rem;
+    text-align: justify;
+}
